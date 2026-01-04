@@ -283,17 +283,11 @@ App screenshots (place images in the `screenshots/` folder). Use the exact filen
 |:-----:|:------:|:---------------:|
 | <img src="screenshots/login.png" alt="Login" width="240"/> | <img src="screenshots/signup.png" alt="Signup" width="240"/> | <img src="screenshots/forgot.png" alt="Forgot Password" width="240"/> |
 
-| Main Screen | Profile / Logout | Session Check |
-|:-----------:|:----------------:|:-------------:|
-| <img src="screenshots/main.png" alt="Main Screen" width="240"/> | <img src="screenshots/profile.png" alt="Profile" width="240"/> | <img src="screenshots/splash.png" alt="Splash / Welcome Back" width="240"/> |
-
 **Expected filenames**
 - `screenshots/login.png` — Login screen
 - `screenshots/signup.png` — Create account screen
 - `screenshots/forgot.png` — Forgot password screen
-- `screenshots/main.png` — Main screen (with Ad banner)
 - `screenshots/profile.png` — Profile / welcome card (logout)
-- `screenshots/splash.png` — Splash or session check screen
 
 **Quick steps to add screenshots**
 ```bash
