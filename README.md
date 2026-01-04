@@ -277,15 +277,35 @@ ca-app-pub-3940256099942544/6300978111
 
 ## 🖼 Screenshots
 
+App screenshots (place images in the `screenshots/` folder). Use the exact filenames below so the gallery renders correctly on GitHub.
+
 | Login | Signup | Forgot Password |
 |:-----:|:------:|:---------------:|
-| ![Login](screenshots/login.png) | ![Signup](screenshots/signup.png) | ![Forgot](screenshots/forgot.png) |
+| <img src="screenshots/login.png" alt="Login" width="240"/> | <img src="screenshots/signup.png" alt="Signup" width="240"/> | <img src="screenshots/forgot.png" alt="Forgot Password" width="240"/> |
 
-| Main Screen | Session Check |
-|:-----------:|:-------------:|
-| ![Main](screenshots/main.png) | ![Splash](screenshots/splash.png) |
+| Main Screen | Profile / Logout | Session Check |
+|:-----------:|:----------------:|:-------------:|
+| <img src="screenshots/main.png" alt="Main Screen" width="240"/> | <img src="screenshots/profile.png" alt="Profile" width="240"/> | <img src="screenshots/splash.png" alt="Splash / Welcome Back" width="240"/> |
 
-> 📸 Add your screenshots to a `screenshots/` folder
+**Expected filenames**
+- `screenshots/login.png` — Login screen
+- `screenshots/signup.png` — Create account screen
+- `screenshots/forgot.png` — Forgot password screen
+- `screenshots/main.png` — Main screen (with Ad banner)
+- `screenshots/profile.png` — Profile / welcome card (logout)
+- `screenshots/splash.png` — Splash or session check screen
+
+**Quick steps to add screenshots**
+```bash
+mkdir -p screenshots
+# Save the images with the filenames above into the screenshots/ folder
+# Then commit and push
+git add screenshots/*
+git commit -m "Add app screenshots"
+git push
+```
+
+> 📸 If you prefer, add multiple image sizes (e.g. `-xxhdpi`) or include `screenshots/README.md` with caption details.
 
 ---
 
