@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "420673065874",
+    "firebase_url": "https://authflowapp-330ad-default-rtdb.firebaseio.com",
+    "project_id": "authflowapp-330ad",
+    "storage_bucket": "authflowapp-330ad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420673065874:android:2892c8180e783b2f3a274b",
+        "android_client_info": {
+          "package_name": "com.example.authflowapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDllDqVc9omsjOkzuxqLbOioE-I0LVAYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

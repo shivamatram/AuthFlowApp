@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Outer Circle Background -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M50,10 A40,40 0 1,1 50,90 A40,40 0 1,1 50,10 Z" />
+    
+    <!-- Shield Shape -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M50,28 L35,35 L35,50 Q35,65 50,72 Q65,65 65,50 L65,35 Z" />
+    
+    <!-- Lock Body -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M42,50 L58,50 L58,62 Q58,64 56,64 L44,64 Q42,64 42,62 Z"
+        android:fillType="evenOdd" />
+    
+    <!-- Lock Shackle -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/primary"
+        android:strokeWidth="2.5"
+        android:pathData="M45,50 L45,46 Q45,42 50,42 Q55,42 55,46 L55,50" />
+    
+    <!-- Keyhole -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M50,54 A2,2 0 1,1 50,58 A2,2 0 1,1 50,54 Z M49,57 L51,57 L51,61 L49,61 Z" />
+    
+    <!-- Inner Circle Highlight -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/white"
+        android:strokeWidth="1.5"
+        android:pathData="M50,15 A35,35 0 0,1 85,50 A35,35 0 0,1 50,85"
+        android:strokeAlpha="0.3" />
+</vector>
