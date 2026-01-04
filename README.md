@@ -279,9 +279,9 @@ ca-app-pub-3940256099942544/6300978111
 
 App screenshots (place images in the `screenshots/` folder). Use the exact filenames below so the gallery renders correctly on GitHub.
 
-| Login | Signup | Forgot Password |
-|:-----:|:------:|:---------------:|
-| <img src="screenshots/login.png" alt="Login" width="240"/> | <img src="screenshots/signup.png" alt="Signup" width="240"/> | <img src="screenshots/forgot.png" alt="Forgot Password" width="240"/> |
+| Login | Signup | Forgot Password | Profile |
+|:-----:|:------:|:---------------:|:------:|
+| <img src="screenshots/login.png" alt="Login" width="220"/> | <img src="screenshots/signup.png" alt="Signup" width="220"/> | <img src="screenshots/forgot.png" alt="Forgot Password" width="220"/> | <img src="screenshots/profile.png" alt="Profile" width="220"/> |
 
 **Expected filenames**
 - `screenshots/login.png` — Login screen
