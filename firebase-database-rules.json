@@ -2,11 +2,9 @@
   "rules": {
     "users": {
       "$uid": {
-        // Allow read/write only to the authenticated user's own data
         ".read": "auth != null && auth.uid === $uid",
         ".write": "auth != null && auth.uid === $uid",
         
-        // Data validation rules
         ".validate": "newData.hasChildren(['uid', 'name', 'email', 'createdAt'])",
         
         "uid": {
